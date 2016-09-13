@@ -34,7 +34,7 @@ public class Employee {
     this.moveIntoCubicle(cubeId);
 }
     // Assume this must be performed first
-    private void meetWithHrForBenefitAndSalryInfo() {
+    public void meetWithHrForBenefitAndSalryInfo() {
         SimpleDateFormat sdf = new SimpleDateFormat("M/d/yyyy");
         String fmtDate = sdf.format(currentDate);
         System.out.println("Met with Hr on " + fmtDate);
